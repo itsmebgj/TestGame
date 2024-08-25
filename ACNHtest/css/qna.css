@@ -1,0 +1,68 @@
+#qna {
+  display: none;
+}
+
+.qBox {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+  width: 80%;
+  color: #362a31;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+
+.answerList {
+  background-color: white;
+  color: black;
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  border: 0px;
+  font-size: 17px;
+  width: 80%;
+}
+
+.answerList:hover,
+.answerList:focus {
+  background-color:  #72a443 ;
+  color: black;
+}
+
+.status {
+  height: 13px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.statusBar {
+  height: 100%;
+  background-color: #ffea2f;
+  border-radius: 100px;
+  background: #ffea2f;
+  background: -moz-linear-gradient(
+    top,
+    #72a443 0%,
+    #72a443 50%,
+    #72a443 67%,
+    #72a443 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #72a443 0%,
+    #72a443 50%,
+    #72a443 67%,
+    #72a443 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #72a443 0%,
+    #72a443 50%,
+    #72a443 67%,
+    #72a443 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26ea5', endColorstr='#de1e51',GradientType=0 ); /* IE6-9 */
+}

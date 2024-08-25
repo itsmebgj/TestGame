@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <meta charset="utf-8" />
+  <head>
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="zero-youth" />
+    <meta name="keywords" content="동물의숲 성격 테스트" />
+    <meta name="description" content="동물의숲 성격 테스트" />
+
+    <!-- sns share -->
+    <mata properyt="og:url" content="https://animalforesttype.netlify.app" />
+    <meta property="og:title" content="동물의숲 성격 테스트" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/share.png" />
+    <meta
+      property="og:description"
+      content="동물의숲 캐릭터로 알아보는 성격 테스트"
+    />
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/nugul.png" />
+    <link rel="apple-touch-icon-precomposed" href="img/nugul.png" />
+
+    <title>동물의숲 성격테스트</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/default.css" />
+    <link rel="stylesheet" href="../css/result.css" />
+  </head>
+  <body><div class="container">
+    <section id="result" class="mx-auto mt-5 py-5 px-3">
+      <h1>
+        <b>동물의숲 캐릭터</b>로 알아보는<br />
+        나의 성격 유형
+      </h1>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
+        <img src="./img/main.png" alt="mainImage" class="img-fluid" />
+      </div>
+      <p>
+        나와 닮은 <b>캐릭터</b>는 누구일까?
+        <br />
+      </p>
+      <button
+        type="button"
+        class="btn btn-outline-warning mt-3"
+        onclick="js:begin()"
+      >
+        시작하기
+      </button>
+    </section>
+
+    <section id="qna">
+      <div class="status mx-auto mt-5">
+        <div class="statusBar"></div>
+      </div>
+
+      <div class="qBox my-5 py-3 mx-auto"></div>
+
+      <div class="answerBox"></div>
+    </section>
+
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+      <h2>당신이 닮은 캐릭터는</h2>
+      <div class="resultname"></div>
+      <p>릴리 : #귀여운 #배려 #소심한 #우정 <br/> 총평: 귀엽고 여린 성격을 가진 늑대릴리!</p>
+      <div
+        id="resultImg"
+        class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <img src="../img/image-0.png" alt="0" class="img-fluid">
+      ></div>
+      <div class="resultDesc">
+          <p>- 동물의숲에서 가장 사랑스럽고 친절한주민 릴리. <br/> - 친구가 위기에 처하면 언제나 발 벗고 나서서 도움을 주는 편이에요 <br/> - 겁 많고 소심한 성격이 스스로 마음에 안들 수 있지만 다르게 생각하면 속이 깊고 남을 먼저 배려하는 마음을 지녔어요.<br/> - 인복이 많다는 말이 있죠? 당신이 좋은 사람인 만큼 주변에 좋은 사람들이 많습니다.<br/>- 정이 많아서 사람들에게 좋은 영향력을 끼칩니다.<br/>- 작고 소중한 당신을 주변 사람들도 좋아합니다🥰</p>
+      </div>
+      <script type="text/javascript">
+          function moveHome() {
+            location.href= "/index.html";
+      }
+    </script>
+      <button
+        type="button" class="gohome mt-3 py-2 px-3"
+        onclick="js:moveHome()">
+        나도 참여하기 </button>
+      
+    
+        </section>
+    </body>
+</html>

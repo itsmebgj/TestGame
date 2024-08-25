@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: 'PyeongChangPeace-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+*{
+    font-family: "PyeongChangPeace-Light";
+    background-color: #FFFFFF ;
+
+}
+
+
+mark{
+    display: inline-block;
+    line-height: 0;
+    padding-bottom: 20px;
+    background-color: #FFB8B9;
+    font-weight: bold;
+    font-size: 30px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 60px;
+}
+.keyword{
+    color: #565656;
+    font-weight: bold;
+    font-size: 40px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#set{
+    padding: 20px;
+    text-align: center;
+    background: #FFFFFF;
+    width: 40%;
+}
+
+.explain{
+    border: 1px dotted;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 26px;
+    margin-bottom: 20px;
+
+}
+
+.rtest {
+    margin : 0;
+    font-family: 'PyeongChangPeace-Light';
+}
+
+.title {
+    margin : 0;
+    font-family: 'PyeongChangPeace-Light';
+    color : #383432;
+}
+
+.result {
+    font-size: 30px;
+    line-height: 120%;
+    color: #383432;
+    font-family: 'PyeongChangPeace-Light';
+    padding-top: 10px;
+    line-height: 1;
+}
+
+.resultimg {
+    width: 100%;
+    height: max-content;
+    object-fit : cover;
+}
+
+.button1 {
+    width : 100%;
+    line-height: 50px;
+    background-color: #72a443;
+    border : 2px solid#72a443;
+    border-radius: 25px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.button1:hover {
+    transition : all 0.1s ease;
+    background-color: #FFB8B9;
+    color : white;
+}
+
+.button1.active{
+    color : #ffffff;
+    background: #FF8082;
+    border: 2px solid #FF8082;
+}
+
+.button1:disabled{
+    color : #383432;
+}
+
+.button1.checked:disabled{
+    color : #ffffff;
+}
+
+.kakao {
+  color: white;
+  background-color:  #72a443;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: whitesmoke;
+  color: #fee500;
+}

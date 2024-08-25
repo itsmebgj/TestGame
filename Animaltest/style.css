@@ -1,0 +1,103 @@
+
+
+@font-face {
+    font-family: 'PyeongChangPeace-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+p{
+    font-size: 30px;
+}
+h1{
+    font-weight: bold;
+    font-size: 300%;
+    font-family: "Gamja Flower";
+}
+* {
+    font-family: "Gamja Flower";
+
+  }
+
+mark{
+    display: inline-block;
+    line-height: 0;
+    padding-bottom: 20px;
+    background-color: #72a443;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: none;
+}
+.result {
+    display: none;
+}
+
+#img {
+
+    margin: 0 auto;
+}
+
+.share {
+    margin: 0 auto;
+}
+
+.button1 {
+    width : 100%;
+    line-height: 50px;
+    background-color: white;
+    border : 2px solid black;
+    border-radius: 25px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.button1:hover {
+    transition : all 0.1s ease;
+    background-color: #72a443;
+    color : white;
+}
+
+.button1.checked{
+    color : #ffffff;
+    background: #FF8082;
+    border: 2px solid #FF8082;
+}
+
+.logo1{
+    display: block; margin: 0px auto;
+}
+.button1:disabled{
+    color : #383432;
+}
+
+.button1.checked:disabled{
+    color : #ffffff;
+    border-bottom: 1px;
+}
+
+.bggreen{
+    background-color:#72a443;
+}
+
+.kakao {
+  color: white;
+  background-color:  #72a443;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: whitesmoke;
+  color: #fee500;
+}
